@@ -1,16 +1,16 @@
 /*
 Color Palette:
-background color:  
-font color:        
-secondary color:   
-tertiary color:    
+background color: #CCD6A6
+font color: #2C3639       
+secondary color: #DAE2B6 
+tertiary color: #DFE8CC   
 
 
 /*CSS syntax notes: 
     selector {property: value;}
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,400&display=swap');
 
 html {
     font-size: 62.5%;        /*Default font size is 16px - 62.5% of 16 is 10px - 
@@ -21,9 +21,9 @@ header{
     margin: 0 4rem; 
     letter-spacing: 0.8rem; 
     text-align: center; 
-    border-bottom: 1px solid #826F66; 
-    border-right: 1px solid #826F66;
-    border-left: 1px solid #826F66; 
+    border-bottom: 1px solid #DFE8CC; 
+    border-right: 1px solid #DFE8CC;
+    border-left: 1px solid #DFE8CC; 
     padding: 0.5rem; 
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4); 
     text-transform: uppercase; 
@@ -31,9 +31,9 @@ header{
 }
 
 Body {
-    Background-color: #3A3845; 
-    Color: #F7CCAC;
-    font-family: 'Open Sans', sans-serif;
+    Background-color: #CCD6A6; 
+    Color: #2C3639;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
@@ -62,11 +62,11 @@ p {
 
 .imageCard a {
     text-decoration: none;
-    color: #826F66;
+    color:  #DFE8CC;
 }
 
 .cardText { 
-    color: #C69B7B;
+    color: #2C3639;
     text-align: center; 
     padding: 2rem;
     border-radius: 30px;
